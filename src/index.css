@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* If you decide to use the custom font in the future, uncomment and adjust the following:
+@font-face {
+  font-family: "Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/GoogleSans-Regular-v1.27.ttf") format("truetype");
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Sans", sans-serif;
+  }
+}
+*/
+
+canvas {
+  height: 200px;
+  width: 200px;
+}
